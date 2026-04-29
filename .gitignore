@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/settings.json
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# DB credentials
+db_config.ini
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
