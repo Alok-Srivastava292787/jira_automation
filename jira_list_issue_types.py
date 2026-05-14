@@ -23,3 +23,4 @@ project = r.json()
 print("Issue types available in project:")
 for it in project.get("issueTypes", []):
     print("-", it["name"], f"(id={it['id']})")
+    
